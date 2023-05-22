@@ -1,0 +1,31 @@
+.preview-img{
+    height: 400px;
+    width: 600px;
+    padding: 10px;
+    margin: 20px;
+    border: 3px solid blue;
+}
+
+.center{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.description{
+    width: flex;
+    margin: 20px;
+}
+
+.chunk{
+    margin: 40px;
+}
+
+body{
+    background-color: beige;
+}
+
+li{
+    width: flex;
+    text-align: left;
+}
