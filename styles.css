@@ -24,47 +24,45 @@
     justify-content: space-around;
     border: 3px solid blue;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .recipe-image{
+    align-self: center;
+    padding: 15px;
+    border: 3px solid blue;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.recipe-image img{
     height: 400px;
     width: 600px;
-    align-self: center;
-    padding: 15px;
-    border: 3px solid blue;
-    background-color: white;
-    margin: 10px;
     border-radius: 5px;
 }
 
-.recipe-image-square{
-    height: 600px;
-    width: 600px;
-    align-self: center;
-    padding: 15px;
-    border: 3px solid blue;
-    background-color: white;
-    margin: 10px;
-    border-radius: 5px;
-}
-
-.recipe-list{
+.recipe-row{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
     margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid black;
 }
 
-.recipe-list a{
+.recipe-row a{
     padding: 10px;
     border-radius: 10px;
     border: 3px solid blue;
     background-color: white;
     box-shadow: 0px 2px 5px grey;
+    text-decoration: none;
+    color: black;
 }
 
-.recipe-list a:hover{
+.recipe-row a:hover{
     border-radius: 20px;
     transform: translateY(-20px);
     background-color: rgb(180, 180, 180);
@@ -77,6 +75,7 @@
 .recipe-tile img{
     height: 200px;
     width: 300px;
+    border-radius: 10px;
 }
 
 body{
